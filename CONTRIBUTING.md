@@ -1,94 +1,50 @@
-# Contributing to this project
+# Contributing Errata
 
-As an open source project contributions are more than welcome and are
-essential to keeping the project interesting and useful. Everyone is
-welcome, and there are many ways to contribute to the project beyond
-committing source code: consider answering questions on a forum,
-reporting bugs or helping to triage and reproduce issues.
+Welcome, and thank you for your interest in contributing to this YouRata repository!
 
-## Contributors
+The goal of this document is to provide a high-level overview of how errata for a YouTube video is submitted.
 
-GitHub provides the most accurate view of the contributions through its
-generated graphs feature. Select the "Graphs" tab and
-"Contributors" sub-graph.
+## Expert Submissions
 
-Thank you!
+By submitting a pull request, subject matter experts can provide factual corrections in the form of errata. This helps to notify interested parties of any erroneous statements, even if nobody is certain of the truth.  
 
-## License
+Errata submissions should contain at least:
+- The time in the video the mistake was made
+- A summary of the erroneous statement
+- The corrected statement as it pertains to the YouTube video
+- Independent knowledge sources
 
-For more information on this project's licensing, please see the
-`LICENSE` file in the root of the repo.
+Sources may be reviewed by the repository collaborators so it is beneficial to include at least one of the following:
+- A book or publication title (include snippets of the relevant pages if possible in the **Leave a comment** field)
+- Pictures (include the picture if possible in the **Leave a comment** field)
+- Archival footage (include the link to the video if possible)
+- Previous YouTube videos from the content creator (include the link to the video)
+- First hand experiences (include your position and timeframe)
+- Common knowledge
 
-<!-- Not a link, since some projects use LICENSE and others use LICENSE.TXT -->
+> **Note**
+> 
+> When using common knowledge as a source, it is important to keep in mind that what is common knowledge to you may not be well-known by others including the content creator. Rhetorical questions can help others understand your logic.
 
-## How to contribute code
+### Example
 
-Fixes to existing issues or small incremental improvements can be
-submitted as a pull request.
+`At {time} it is stated {statement}, however {corrected statement}, see {references or common knowledge}`
 
-If you're looking to make a larger contribution, refactor code, or add
-a major new feature, please first open an issue to start communicating
-about the change with the maintainers. This will help to make the process
-smooth and lead to the most efficient model.
+If there are duplicate erroneous statements in the video, only submit errata for the _first_ occurrence. There is a chance that another expert may have already submitted a pull request for the errata you are addressing; you can check open [pull requests](/../../pulls) before submitting a new one.
 
-Changes should be small, incremental, and up-to-date with the upstream.
-Large long-term branches can lead to merge conflicts and reduced
-collaboration.
+## Content Creator Additions
 
-### Submitting a pull request
+Content creators can post corrections directly to the errata files. This helps to notify interested parties of any erroneous statements, even if the content creator is not certain of the truth.  
 
-1. Fork the repo on GitHub, cloning on your machine
-2. Create a branch with your changes.
+Errata additions should contain at least:
+- The time in the video the mistake was made
+- The corrected statement as it pertains to the YouTube video
 
-   - Please keep the branch specific to your contribution
-   - Please use logical commits with helpful, concise commit messages
-   - Follow the coding style of the project
-   - Run follow any build or test scripts. Contribute new tests.
+### Example
 
-3. Create a [Pull Request](https://help.github.com/articles/using-pull-requests/) with your contribution.
+`At {time} we meant to say {corrected statement}`
 
-## Other ways to contribute
+# Thank You!
 
-There are many other ways to get involved with the community and to
-participate in this project:
-
-- Use the product, submitting GitHub issues when a problem is found
-- Help code review pull requests and participate in issue threads
-- Submit a new feature request as an issue
-- Help answer questions on forums such as Stack Overflow
-- Tell others about the project on Twitter, your blog, etc.
-
-### Reporting issues
-
-Issues unrelated to security should be submitted through this
-project's Issues tab on GitHub.
-
-Please follow the following guidance when possible:
-
-- Search or browse the existing issues to make sure the issue
-  has not already been reported
-- Provide a detailed description of the issue including:
-  - What feature the issue appears in
-  - Under what circumstances the issue appears (your OS, environment
-    and build info)
-  - What the desired behavior is
-  - What the impact of the issue is
-  - Any information that will be helpful to help reproduce the issue
-
-We're excited to have a dialog and work together to make the
-project a success!
-
-## Attribution of changes
-
-We do not want the source code to be full of random attributions. Git
-handles attribution by storing the committer information from changes
-and GitHub helps surface this information in its contributor graphs.
-
-## Consistent source code headers
-
-The license and copyright protections for this project's direct
-contributions should appear at the top of every source file.
-
-If you contribute a change that includes a new source file, please
-take the time to make sure that the header is consistent with the
-rest of the project.
+Your contributions to YouRata, large or small, make great projects like this possible.
+Thank you for taking the time to contribute.

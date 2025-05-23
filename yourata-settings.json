@@ -1,0 +1,33 @@
+{
+  "ActionCutOuts": {
+    "DisableActionReportMilestone": false,
+    "DisableConflictMonitorGitHubOperations": false,
+    "DisableInitialSetupMilestone": false,
+    "DisableYouTubeSyncMilestone": false,
+    "DisableYouTubeVideoUpdate": false,
+    "DisableYouTubeCorrections": false
+  },
+  "ErrataBulletin": {
+    "EmptyLinesPerMark": 3,
+    "IncludeVideoLink": true,
+    "Instructions": "Enter your errata between the time slots  \nFor full instructions see [README](../../..#readme)",
+    "SecondsPerMark": 30,
+    "TitleLocation": "top"
+  },
+  "MilestoneLifetime": {
+    "MaxRunTime": 3600,
+    "MaxUpdateDwellTime": 900
+  },
+  "YouTube": {
+    "ChannelId": null,
+    "CorrectionsCloser": "---",
+    "ErattaLinkLocation": "bottom",
+    "ErrataLinkTemplate": "To see errata for this video: {0}",
+    "ExcludePlaylists": null,
+    "ExcludeVideos": null,
+    "MinVideoSeconds": 60,
+    "QueriesPerDay": 10000,
+    "TruncateDescriptionOverflow": true,
+    "VideoDurationFilter": "any"
+  }
+}
